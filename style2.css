@@ -1,0 +1,38 @@
+ul > li{
+
+color: rgb(32, 240, 188);
+}
+
+p + h3{
+    color: rgb(154, 120, 240);
+}
+
+a:hover{
+    color: brown;
+}
+
+li:nth-child(2){
+    color: blueviolet;
+
+
+}
+
+p::after{
+    content: "I am Shauryabir";
+    color: rgba(134, 34, 189, 0.492);
+}
+pre::first-letter{
+    font-size: 250%;
+color: darkorchid;
+}
+pre{
+    font-size: 35px;
+}
+.button:hover{
+   background-color:  #4F5165;
+   cursor: pointer;
+}
+.button{
+     background-color: #547AA3;
+     color: aliceblue;
+}
